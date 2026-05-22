@@ -1,0 +1,75 @@
+{
+  "fleet": {
+    "total_records": 39568,
+    "total_devices": 3,
+    "date_from": "2020-08-17",
+    "date_to": "2020-08-24",
+    "days_covered": 8
+  },
+  "alarms": {
+    "distribution": {
+      "normal": 14875,
+      "low_risk": 5870,
+      "medium_risk": 4165,
+      "high_risk": 4508,
+      "critical": 4958,
+      "emergency": 5192
+    },
+    "alarm_rate_pct": 62.41,
+    "critical_plus_pct": 25.65
+  },
+  "driver_score": {
+    "fleet_avg": 89.59,
+    "fleet_min": 62.12,
+    "fleet_max": 100.0,
+    "pct_below_70": 0.09,
+    "by_device": {
+      "zRYzhAEAHAABAAAKCRtcAAsAGAB0gBAQ": 87.41,
+      "zRYzhAEAHAABAAAKCRtcAAsANAB0gBAQ": 90.88,
+      "zRYzhAEAHAABAAAKCRtcAAsAtwB1gBAQ": 89.87
+    }
+  },
+  "speed": {
+    "avg_speed_kmh": 25.13,
+    "max_speed_kmh": 175.0,
+    "overspeed_events": 23,
+    "overspeed_pct": 0.06
+  },
+  "idle": {
+    "idle_records": 195,
+    "idle_rate_pct": 0.49
+  },
+  "engine": {
+    "avg_rpm": 1158.35,
+    "max_rpm": 9000.0,
+    "high_rpm_pct": 0.04,
+    "avg_load_pct": 30.42,
+    "high_load_pct": 0.38
+  },
+  "temperature": {
+    "avg_coolant_temp_c": 84.71,
+    "overheat_events": 0,
+    "overheat_pct": 0.0
+  },
+  "per_device": [
+    {
+      "device_id": "zRYzhAEAHAABAAAKCRtcAAsAGAB0gBAQ",
+      "records": 5094,
+      "alarm_rate": 75.97,
+      "avg_driver_score": 87.41
+    },
+    {
+      "device_id": "zRYzhAEAHAABAAAKCRtcAAsANAB0gBAQ",
+      "records": 1436,
+      "alarm_rate": 53.34,
+      "avg_driver_score": 90.88
+    },
+    {
+      "device_id": "zRYzhAEAHAABAAAKCRtcAAsAtwB1gBAQ",
+      "records": 33038,
+      "alarm_rate": 60.71,
+      "avg_driver_score": 89.87
+    }
+  ],
+  "generated_at": "2026-05-22T08:27:37.703500"
+}

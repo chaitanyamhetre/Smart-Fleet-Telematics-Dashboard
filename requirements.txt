@@ -1,0 +1,26 @@
+# Smart Fleet Telematics Analytics
+# Python 3.9+
+
+# Data
+pandas==2.1.4
+numpy==1.26.4
+
+# ML
+scikit-learn==1.4.2
+joblib==1.3.2
+
+# Visualisation
+matplotlib==3.8.4
+seaborn==0.13.2
+plotly==5.21.0
+
+# Dashboard
+streamlit==1.33.0
+
+# Database
+sqlalchemy==2.0.29
+psycopg2-binary==2.9.9
+
+# Notebook
+jupyter==1.0.0
+ipykernel==6.29.4

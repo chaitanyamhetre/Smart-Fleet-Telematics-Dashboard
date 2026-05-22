@@ -1,0 +1,118 @@
+{
+  "accuracy": 0.9949,
+  "f1_weighted": 0.9949,
+  "cv_f1_mean": 0.9959,
+  "cv_f1_std": 0.0005,
+  "features_used": [
+    "engine_rpm",
+    "calculated_engine_load",
+    "acceleration_x",
+    "acceleration_y",
+    "acceleration_z",
+    "engine_coolant_temperature",
+    "throttle_position",
+    "air_intake_temperature",
+    "driver_score",
+    "hour",
+    "day_of_week",
+    "is_idle",
+    "lat",
+    "lng",
+    "absolulte_barometric_pressure",
+    "absolute_load_value",
+    "absolute_throttle_position_b",
+    "absolute_throttle_position_d",
+    "absolute_throttle_position_e",
+    "actual_engin___percent_torque",
+    "ambient_air_temperature",
+    "catalyst_temperature_bank_1_sensor_1",
+    "commanded_evaporative_purge",
+    "commanded_throttle_actuator",
+    "control_module_voltage",
+    "distance_traveled_since_codes_cleared",
+    "distance_traveled_with_mil_on",
+    "driver's_demand_engin___percent_torque",
+    "engine_reference_torque",
+    "external_battery",
+    "fuel_air_commanded_equivalence_rate",
+    "fuel_rail_gauge_pressure",
+    "fuel_system_status",
+    "fuel_tank_level_input",
+    "fuel_type",
+    "hardware_status",
+    "idling",
+    "ignition_status",
+    "intake_manifold_absolute_pressure",
+    "internal_battery",
+    "long_term_fuel_trim_bank_1",
+    "maf_air_flow_rate",
+    "monitor_status_since_dtcs_cleared",
+    "monitor_status_this_drive_cycle",
+    "obd_standards_this_vehicle_conforms_to",
+    "oxygen_sensor_1___ab:_fuel_air_equivalence_ratio",
+    "oxygen_sensor_1___b:_short_term_fuel_trim",
+    "oxygen_sensor_2___b:_short_term_fuel_trim",
+    "oxygen_sensors_present_in_2_banks",
+    "pidnamenotavailable",
+    "relative_throttle_position",
+    "run_time_since_engine_start",
+    "short_term_fuel_trim_bank_1",
+    "timing_advance",
+    "towing",
+    "speed_kmh",
+    "warm_ups_since_codes_cleared",
+    "aggressive_throttle"
+  ],
+  "n_train": 31654,
+  "n_test": 7914,
+  "class_distribution": {
+    "normal": 14875,
+    "low_risk": 5870,
+    "medium_risk": 4165,
+    "high_risk": 4508,
+    "critical": 4958,
+    "emergency": 5192
+  },
+  "top_features": [
+    {
+      "feature": "driver_score",
+      "importance": 0.4848938934846109
+    },
+    {
+      "feature": "acceleration_x",
+      "importance": 0.07165890352372542
+    },
+    {
+      "feature": "acceleration_z",
+      "importance": 0.06624600511188564
+    },
+    {
+      "feature": "engine_rpm",
+      "importance": 0.0510649540444638
+    },
+    {
+      "feature": "acceleration_y",
+      "importance": 0.044396101286470105
+    },
+    {
+      "feature": "hour",
+      "importance": 0.038670566732274335
+    },
+    {
+      "feature": "external_battery",
+      "importance": 0.03862735332037537
+    },
+    {
+      "feature": "absolute_throttle_position_e",
+      "importance": 0.0337750412755467
+    },
+    {
+      "feature": "absolute_throttle_position_d",
+      "importance": 0.023077792816469777
+    },
+    {
+      "feature": "absolute_throttle_position_b",
+      "importance": 0.021160288976817078
+    }
+  ]
+}
